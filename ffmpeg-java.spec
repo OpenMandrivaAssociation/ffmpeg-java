@@ -15,7 +15,7 @@ BuildRequires:	java-rpmbuild >= 1.5
 BuildRequires:	update-alternatives
 BuildRequires:	xml-commons-apis
 Requires:		java >= 1.5
-Requires:		libffmpeg51
+Requires:		libffmpeg52
 
 %description
 ffmpeg-java is a Java wrapper around ffmpeg, using JNA.
