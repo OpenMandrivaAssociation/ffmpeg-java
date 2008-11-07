@@ -1,7 +1,7 @@
 Name:			ffmpeg-java
 Summary:		A Java wrapper around ffmpeg, using JNA
 Version:		20071012
-Release:		%mkrel 0.0.3
+Release:		%mkrel 0.0.4
 License:		LGPL
 Group:			Development/Java
 URL:			http://fmj.sourceforge.net/
