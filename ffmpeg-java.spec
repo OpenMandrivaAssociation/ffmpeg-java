@@ -1,21 +1,19 @@
-Name:			ffmpeg-java
-Summary:		A Java wrapper around ffmpeg, using JNA
-Version:		20071012
-Release:		%mkrel 0.0.4
-License:		LGPL
-Group:			Development/Java
-URL:			http://fmj.sourceforge.net/
-Source0:		%{name}.tar.bz2
-BuildRoot:		%{_tmppath}/%{name}-%{version}-build
-BuildArch:		noarch
+Summary:	A Java wrapper around ffmpeg, using JNA
+Name:		ffmpeg-java
+Version:	20071012
+Release:	%mkrel 0.0.5
+License:	LGPL
+Group:		Development/Java
+URL:		http://fmj.sourceforge.net/
+Source0:	%{name}.tar.bz2
 BuildRequires:	ant
-#BuildRequires:	gcc-c++
 BuildRequires:	java-rpmbuild >= 1.5
 #BuildRequires:	libffmpeg0-devel
 BuildRequires:	update-alternatives
 BuildRequires:	xml-commons-apis
-Requires:		java >= 1.5
-Requires:		libffmpeg
+Requires:	java >= 1.5
+Requires:	libffmpeg
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 ffmpeg-java is a Java wrapper around ffmpeg, using JNA.
