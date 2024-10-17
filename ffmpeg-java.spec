@@ -4,7 +4,7 @@ Version:	20071012
 Release:	%mkrel 0.0.7
 License:	LGPL
 Group:		Development/Java
-URL:		http://fmj.sourceforge.net/
+URL:		https://fmj.sourceforge.net/
 Source0:	%{name}.tar.bz2
 BuildRequires:	ant
 BuildRequires:	java-rpmbuild >= 1.5
